@@ -24,7 +24,7 @@ export default function ContactUs() {
 
 
   return (
-    <div className="container" id="contacts">
+    <div className="container bg-light p-4" id="contacts" style={{borderRadius: "5%"}}>
              <div className="text-center">
         <h1>Contact Me</h1>
         <p>
