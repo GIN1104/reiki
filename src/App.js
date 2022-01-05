@@ -5,6 +5,7 @@ import Contact from "./components/Contact";
 import SomeText from "./components/SomeText";
 import Footer from './components/Footer';
 import FotoContainer from './components/FotoContainer';
+import CarouselImg from './components/CarouselImg/CarouselImg'
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
        <Navbar />
        <FotoContainer/>
        <SomeText/>
+       <CarouselImg/>
        <Contact/>
        <Footer/>
     </div>
