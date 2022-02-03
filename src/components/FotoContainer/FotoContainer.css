@@ -1,0 +1,16 @@
+.bg_image{
+    background-image: url("../../img/helix_nebula.jpg");
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: center;
+    background-color: none;
+    background-size: cover;
+}
+.bottom_container{
+    padding-top: 14.5em;
+}
+@media only screen and (max-width: 600px) {
+    .bottom_container{
+        padding-top: 8.5em;
+    }
+  }

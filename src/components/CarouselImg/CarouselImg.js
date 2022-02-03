@@ -1,9 +1,9 @@
 import React from 'react';
 import "./CarouselImg.css";
-import ElenaReiki from "../../img/Elena_reiki.jpeg";
-import Img1 from "../../img/IMG_1.jpeg";
-import Img2 from "../../img/IMG_2.jpeg";
-import Img3 from "../../img/IMG_3.jpeg";
+import ElenaReiki from "../../img/Elena_reiki-min.jpeg";
+import Img1 from "../../img/IMG_1-min.jpeg";
+import Img2 from "../../img/IMG_2-min.jpeg";
+import Img3 from "../../img/IMG_3-min.jpeg";
 
 function CarouselImg() {
     return (
