@@ -7,12 +7,14 @@ import Footer from './components/Footer';
 
 import CarouselImg from './components/CarouselImg/CarouselImg'
 import FotoContainer from './components/FotoContainer/FotoContainer';
+import MainFoto from './components/MainFoto/MainFoto';
 
 
 function App() {
   return (
     <div className="App">
        <Navbar />
+       <MainFoto />
        <FotoContainer/>
        <SomeText/>
        <CarouselImg/>

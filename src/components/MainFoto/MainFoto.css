@@ -1,0 +1,42 @@
+.container_main {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+.main_pic{
+    height: auto;
+    width: 100vw;
+}
+.centered {
+    position: absolute;
+    top: 15vh;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    font-size: 3rem;
+  }
+  @media only screen and (max-width: 800px ) {
+    .centered {
+        top: 11vh;
+        font-size: 2rem;
+      }
+      
+  }
+  @media only screen and (max-width: 600px) {
+    .centered {
+        top: 9vh;
+        font-size: 1.7rem;
+        left: 40vw;
+        transform: translate(-28%, -60%);
+      }
+      
+  }
+  @media only screen and (max-width: 532px) {
+    .centered {
+        top: 9vh;
+        font-size: 1.5rem;
+        left: 40vw;
+        transform: translate(-28%, -60%);
+      }
+      
+  }
